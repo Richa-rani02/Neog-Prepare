@@ -1,4 +1,6 @@
-// Reverse the string word wise Input : welcome to neog camp ->camp neog to welcomeconst reverseWord=(str)=>{
+// Reverse the string word wise Input : welcome to neog camp ->camp neog to welcome
+
+const reverseWord=(str)=>{
     let rev=str.split(" ").reverse().join(" ");
     return rev;
 }
